@@ -38,7 +38,7 @@ nav li {
  	text-decoration: none;
  }
 
-#contact {
+.main {
 	clear: both;
 	width: 80%;
 	margin: 0 auto;
@@ -48,6 +48,6 @@ nav li {
 h1 {
 	font-size: 50px;
 }
-#contact li {
+.main li {
 	display: inline-block;
 }

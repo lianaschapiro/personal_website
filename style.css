@@ -1,10 +1,53 @@
 * {
 	margin: 0;
 	padding: 0;
+	color: black;
 }
 
 body {
 	background-image: url("images/guava.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+#frontpage {
+	font-family: 'Yellowtail', cursive;
+	font-size: 200px;
+	margin: 100px;
+	color: #330033;
+}
+
+nav {
+	padding-bottom: 180px;
+}
+
+nav li {
+	list-style-type: none;
+	float: right;
+	font-size: 22px;
+	margin: 18px 18px 18px 0px;
+	padding: 7px 10px;
+	font-weight: bold;
+	color: #330066;
+	font-style: italic;
+/*	border: solid 2px #330033;*/
+	border-radius: 25px;
+	background-color: #ffffcc;
+}
+ a {
+ 	text-decoration: none;
+ }
+
+#contact {
+	clear: both;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 50px;
+}
+#contact li {
+	display: inline-block;
 }

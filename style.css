@@ -51,3 +51,13 @@ h1 {
 .main li {
 	display: inline-block;
 }
+
+#travel {
+	text-align: center;
+}
+#travel img {
+	height: 250px;
+	padding: 10px;
+	border: solid black 5px;
+	background-color: white;
+}

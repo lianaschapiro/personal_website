@@ -6,35 +6,39 @@
 }
 
 body {
-	background-image: url("images/guava.jpg");
+	background-image: url("images/kitenge.jpg");
 	background-size: cover;
-	background-repeat: no-repeat;
 }
 
 #frontpage {
 	font-family: 'Yellowtail', cursive;
 	font-size: 200px;
 	margin: 100px;
-	color: #330033;
+	color: #ffffcc;
 }
 
 nav {
-	padding-bottom: 180px;
+	height: 75px;
+	background-color: black;
+	margin-bottom: 100px;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
-nav li {
+nav a {
+	color: #ffffcc;
+}
+nav li{
 	list-style-type: none;
 	float: right;
 	font-size: 22px;
-	margin: 18px 18px 18px 0px;
+	margin: 16px 18px 18px 0px;
 	padding: 7px 10px;
-	font-weight: bold;
-	color: #330066;
-	font-style: italic;
-/*	border: solid 2px #330033;*/
-	border-radius: 25px;
-	background-color: #ffffcc;
+	/*font-weight: bold;*/
+	/*font-style: italic;*/
 }
+
  a {
  	text-decoration: none;
  }
@@ -43,27 +47,74 @@ nav li {
 	clear: both;
 	width: 80%;
 	margin: 0 auto;
+	margin-top: 150px;
+	padding: 20px;
+	background-color: #ffffcc;
+	border: solid 5px black;
+	/*border-radius: 25px;*/
 }
 
 h1 {
 	font-size: 50px;
 }
-.main li {
+
+#contact {
+	width: 30%;
+	margin: 0 auto;
+	margin-top: 150px;
+	padding: 15px;
+	background-color: #ffffcc;
+	border: solid 5px black;
+}
+
+#contact li {
 	display: inline-block;
 }
 
 #travel {
 	padding-bottom: 20px;
+	margin-top: 150px;
 }
 #travel img {
 	height: 250px;
 	margin: 15px;
-	border: solid black 5px;
 	background-color: #ffffcc;
+	border: solid 1px black;
+}
+#travelpic {
+	padding: 10px;
+	background-color: white;
+	display: inline-block;
+	border: solid black 5px;
+	margin: 15px;
+	font-weight: bold;
+}
+
+#travel h2 {
+	padding: 20px;
+	background-color: #ffffcc;
+	width: 65%;
+	margin: 0 auto;
+	border: solid 5px black;
+}
+
+#portfolio {
+	margin-top: 150px;
+}
+
+#portfolio h2{
+	padding: 20px;
+	background-color: #ffffcc;
+	border: solid 5px black;
+	/*border-radius: 25px;*/
+	width: 40%;
+	margin: 0 auto;
 }
 
 #portfolio img {
 	height: 300px;
 	margin: 60px 45px 60px;
-	border-radius: 70px;
+	padding: 10px;
+	background-color: white;
+	border: 5px solid black;
 }

@@ -8,6 +8,7 @@
 body {
 	background-image: url("images/wood.jpg");
 	background-size: 100%;
+	background-attachment: fixed;
 }
 
 #frontpage {

@@ -107,7 +107,7 @@ h2 {
 	margin: 0 auto;
 }
 
-#portfolio img {
+#portfolio img, iframe {
 	height: 250px;
 	margin: 40px 45px 60px;
 	padding: 10px;

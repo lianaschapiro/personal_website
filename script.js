@@ -5,7 +5,7 @@ $(document).ready(
 $("#frontpage")
 		.animate({
 			opacity: "1",
-		}, 6000);
+		}, 4000);
 
 
 })

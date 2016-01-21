@@ -1,11 +1,7 @@
-$(document).ready(
-	function(){
+$(document).ready(function(){
 
 
-$("#frontpage")
-		.animate({
-			opacity: "1",
-		}, 4000);
+	$("#frontpage").slideDown(2000)
+	$("#frontpage2").delay(800).slideDown(2000)
 
-
-})
+});
